@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+/*..................... nav bar...................... */
+.nav-b {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+    padding: 4px;
+
+}
+
+.mb {
+    display: none;
+}
+
+.nav-b a {
+    text-decoration: none;
+}
+
+.nav-b a li {
+    margin-right: 30px;
+    list-style: none;
+}
+
+.nav-t {
+    font-size: 36px;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+
+.nav-i {
+    color: white;
+}
+
+.nav-h {
+    color: white;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50px;
+    width: 70px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+    margin-top: 20px;
+    padding: 10px;
+}
