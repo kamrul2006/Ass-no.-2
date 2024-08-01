@@ -70,4 +70,432 @@ nav {
     padding: 10px;
 }
 
+/* ...............banner................... */
+.bn-t {
+    font-size: 78px;
+    line-height: 100%;
+}
 
+.shape {
+    font-family: 'Miama';
+    font-weight: normal;
+    font-size: 170px;
+}
+
+.bn-d {
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bn-t-btn {
+    margin-top: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.b-btn-1,
+.re-btn {
+    color: white;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.b-btn-2 {
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.b-btn-3 {
+    color: white;
+    text-align: left;
+    padding-left: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 193px;
+    height: 98px;
+    position: absolute;
+    left: 1107px;
+    top: 260px;
+}
+
+.b-btn-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: left;
+    color: white;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    width: 207px;
+    height: 95px;
+    position: absolute;
+    left: 764px;
+    top: 556px;
+}
+
+.f500 {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.banner-btn {
+    height: 100%;
+}
+
+.banner {
+    background-image: url(../images/Images\ 2.png), linear-gradient(180deg, rgba(119, 119, 119, 0), rgb(41, 41, 41), rgba(119, 119, 119, 0) 100%);
+    background-position: right 144px bottom, center;
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 190px;
+    margin: 0 auto;
+}
+
+/*.................... Change your habits.................. */
+.cy-t {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.cy-d,
+.im-d {
+    margin-top: 14px;
+    color: rgb(155, 152, 152);
+}
+
+.ch-i {
+    border: 2px solid grey;
+    border-radius: 50%;
+
+}
+
+.img {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: px;
+    margin-top: 55px;
+    padding: 0 190px;
+}
+
+.im-t {
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.c-y-h {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+/*............... Run an Extra Mile Easily ..................*/
+
+.r-e-m-e {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(22, 22, 22);
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 90px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.re-txt {
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.re-t {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.re-d {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.re-img {
+    border-radius: 20px;
+}
+
+/*........................ BMI Calculator ............................*/
+.bmi {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+/*.......................... BMI Chart box....................... */
+.bmi-t {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.bmi-dis {
+    margin-top: 20px;
+    color: rgb(149, 148, 148);
+}
+
+table {
+    width: 310px;
+    height: 216px;
+    margin-top: 52px;
+    padding: 5px;
+    border-collapse: collapse;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+th {
+    font-weight: normal;
+    text-align: left;
+    border: 1px solid rgb(64, 64, 64);
+    padding: 5px 10px;
+}
+
+td {
+    color: gray;
+    text-align: left;
+    border: 1px solid rgb(64, 64, 64);
+    padding: 5px 10px;
+}
+
+.crt {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+.cal {
+    width: 40%;
+}
+
+.bmi-box {
+    background-color: rgba(128, 128, 128, 0.248);
+}
+
+.bmi-crt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 190px;
+    padding: 40px;
+    margin-top: 100px;
+}
+
+.inp {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+    margin-top: 35px;
+}
+
+.inpt {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+
+.h,
+.w,
+.s,
+.a {
+    background-color: rgba(128, 128, 128, 0.17);
+    padding-left: 10px;
+    height: 35px;
+    border-radius: 5px;
+    color: gray;
+    border: none;
+}
+
+.bmi-btn {
+    color: white;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    width: 224px;
+    height: 54px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* ....................Our team .......................*/
+.ot-tx {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.ot-img {
+    background-color: rgba(128, 128, 128, 0.297);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 70%;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.ot-pic1 {
+    background-image: url(../images/trainer1.png);
+}
+
+.ot-pic2 {
+    background-image: url(../images/trainer2.png);
+}
+
+.ot-pic3 {
+    background-image: url(../images/trainer3.png);
+}
+
+.ot-pic4 {
+    background-image: url(../images/trainer4.png);
+}
+
+.ot-pic5 {
+    background-image: url(../images/trainer5.png);
+}
+
+.ot-pic6 {
+    background-image: url(../images/trainer6.png);
+}
+
+.ot-pic1,
+.ot-pic2,
+.ot-pic3,
+.ot-pic4,
+.ot-pic5,
+.ot-pic6,
+.ot-pic {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.title {
+    color: rgb(177, 176, 176);
+}
+
+.name,
+.title {
+    margin-top: 190px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+/* .......................footer..................................... */
+footer {
+    background-color: rgba(128, 128, 128, 0.219);
+    padding: 50px 200px;
+    margin-top: 100px;
+}
+
+footer h6 {
+    font-size: 25px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 20px;
+    color: rgba(138, 138, 138, 0.7);
+}
+
+.fit {
+    width: 35%;
+}
+
+.ft-t {
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.ft-dis {
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+}
+
+.gtst h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.gtst h5 {
+    color: rgb(108, 107, 107);
+    font-size: 23px;
+    margin-top: 5px;
+}
+
+.gtst {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+h5 {
+    color: grey;
+}
+
+hr {
+    margin-top: 70px;
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: gray
+}
+
+.small {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+}
