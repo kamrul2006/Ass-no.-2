@@ -328,7 +328,6 @@ td {
     gap: 5px;
 }
 
-
 .h,
 .w,
 .s,
@@ -498,4 +497,229 @@ hr {
 .small {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
+}
+
+
+
+/*...................... RESponsive for mobile ............................*/
+
+@media screen and (max-width:575.99px) {
+
+    /*--------------- nav bar--------------- */
+
+    nav {
+        margin: 10px;
+    }
+
+    .nav-t {
+        font-size: 26px;
+    }
+
+    .nav-b {
+        display: none;
+    }
+
+    .mb {
+        display: inline;
+    }
+
+    /*------------------Banner ----------------------  */
+
+    .banner {
+        background-position: bottom;
+        height: 850px;
+        flex-direction: column;
+        gap: 0;
+        align-items: flex-start;
+        margin: 0px;
+        padding: 20px;
+    }
+
+    .bann-t {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .shape {
+        font-family: 'Miama';
+        font-weight: normal;
+        font-size: 70px;
+    }
+
+    .bn-t {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .bn-d {
+        color: gray;
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .b-btn-1 {
+        width: 170px;
+    }
+
+    .b-btn-2 {
+        width: 170px;
+    }
+
+    .b-btn-3 {
+        position: absolute;
+        width: 145.91px;
+        height: 74.09px;
+        left: 254.2px;
+        top: 406.6px;
+    }
+
+    .b-btn-4 {
+        position: absolute;
+        width: 155.74px;
+        height: 72.58px;
+        left: 32px;
+        top: 700.38px;
+    }
+
+    .f500 {
+        font-size: 30px;
+    }
+
+    /*--------------- Change your habits--------------- */
+    .cy-t {
+        font-size: 30px;
+    }
+
+    .cy-d {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .im-d {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .img {
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .img div {
+        margin-top: 20px;
+        width: 200px;
+    }
+
+    .c-y-h {
+        margin-top: 10px;
+
+    }
+
+    /*----------------- Run an Extra Mile Easily------------ */
+
+    .r-e-m-e {
+        margin-top: 50px;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .re-btn {
+        width: 350px;
+    }
+
+    .re-txt {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .re-t {
+        font-size: 30px;
+    }
+
+    .re-img {
+        margin-top: 10px;
+        width: 98%;
+    }
+
+    /*-------------- bmi crt box------------------ */
+    .bmi-t {
+        font-size: 20px;
+    }
+
+    .bmi-dis {
+        margin-top: 10px;
+    }
+
+    .bmi-box {
+        margin-top: 50px;
+    }
+
+    .crt,
+    .cal {
+        width: 100%;
+    }
+
+    .bmi-crt {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 20px;
+        margin-top: 10px;
+        gap: 30px;
+    }
+
+    .inp {
+        margin-top: 10px;
+    }
+
+    .bmi-btn {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    /* -------------------MEET OUR TEEM---------------- */
+    .ot-tx {
+        margin-top: 30px;
+    }
+
+    .ot-img {
+        grid-template-columns: repeat(1, 1fr);
+        width: 75%;
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    /* -------------------footer------------------------ */
+
+    footer {
+        padding: 50px 10px;
+        margin-top: 30px;
+    }
+
+    .fit {
+        width: 80%;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    h5 {
+        font-weight: normal;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+
+    .small {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 15px;
+    }
+
 }
