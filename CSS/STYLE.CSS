@@ -939,6 +939,10 @@ hr {
     }
 
     /*-------------- bmi crt box------------------ */
+    #bm {
+        margin-top: 0px;
+    }
+
     .bmi-t {
         font-size: 20px;
     }
@@ -1094,7 +1098,8 @@ hr {
 }
 
 
-/*...................... RESponsive for Tab ............................*/
+/*...................... RESponsive for Tab .......................*/
+
 @media screen and (min-width:576px) and (max-width:768px) {
     body {
         min-width: 575px;
@@ -1292,6 +1297,10 @@ hr {
     }
 
     /*-------------- bmi crt box------------------ */
+    #bm {
+        margin-top: 0px;
+    }
+
     .bmi-t {
         font-size: 20px;
     }
