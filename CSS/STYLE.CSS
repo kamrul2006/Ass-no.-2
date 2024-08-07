@@ -58,6 +58,7 @@ body {
     background-color: rgb(230, 83, 60);
     border-radius: 50px;
     width: 70px;
+    height: 25px;
     text-align: center;
 }
 
@@ -679,8 +680,7 @@ footer h6 {
 
 .gtst {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 100px;
 }
 
 .footer {
@@ -1091,5 +1091,369 @@ hr {
         margin-top: 30px;
     }
 
+}
+
+
+/*...................... RESponsive for Tab ............................*/
+@media screen and (min-width:576px) and (max-width:768px) {
+    body {
+        min-width: 575px;
+        max-width: 767px;
+    }
+
+    /*--------------- nav bar--------------- */
+
+    nav {
+        width: 80%;
+        padding: 10 90px;
+        margin: 0 auto;
+        margin-left: 90px;
+        align-items: center;
+    }
+
+    .nav-t {
+        font-size: 26px;
+    }
+
+    /*------------------Banner ----------------------  */
+
+    .banner {
+        background-position: bottom;
+        width: 90%;
+        height: 1100px;
+        flex-direction: column;
+        gap: 0;
+        align-items: center;
+        margin: 5px;
+        padding: 40px 50px;
+        margin: 0 auto;
+    }
+
+    .bann-t {
+        padding: 0;
+        margin-left: 0;
+    }
+
+    .b-btn-3 {
+        left: 450px;
+        top: 800px;
+    }
+
+    .b-btn-4 {
+        left: 100px;
+        top: 1100px;
+    }
+
+
+    /*--------------- Change your habits--------------- */
+
+    .cy-d {
+        text-align: center;
+    }
+
+    .im-d {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .img {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 90px;
+        margin-top: 20px;
+    }
+
+    .img div {
+        margin-top: 20px;
+    }
+
+
+    /*----------------- Run an Extra Mile Easily------------ */
+
+    .r-e-m-e {
+        margin-top: 50px;
+        padding: 10px;
+        height: auto;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .re-txt {
+        width: 60%;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .re-t {
+        font-size: 30px;
+    }
+
+    .re-img {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    /* .......................Trainings and Exercises...................... */
+
+    .trandex {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .tae {
+        width: 100%;
+        height: 450px;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .tei1 {
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tei2 {
+        margin-top: -75px;
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tei1 div,
+    .tei2 div {
+        padding: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .te1 {
+
+        height: 50%;
+        width: 25%;
+    }
+
+    .te2 {
+
+        height: 50%;
+        width: 45%;
+    }
+
+    .te3 {
+
+        height: 50%;
+        width: 35%;
+    }
+
+    .te4 {
+
+        height: 50%;
+        width: 40%;
+    }
+
+    .te5 {
+
+        height: 50%;
+        width: 20%;
+    }
+
+    .te6 {
+
+        height: 50%;
+        width: 40%;
+    }
+
+    .te-dis {
+        text-align: right;
+    }
+
+    .te-disx {
+        color: white;
+        position: absolute;
+        margin-top: 14%;
+    }
+
+    .te-disy {
+        color: white;
+        position: absolute;
+        margin-top: 14%;
+    }
+
+    #te-disp {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    /*-------------- bmi crt box------------------ */
+    .bmi-t {
+        font-size: 20px;
+    }
+
+    .bmi-box {
+        margin-top: 50px;
+    }
+
+    .crt,
+    .cal {
+        width: 100%;
+    }
+
+    .bmi-crt {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 10px;
+        padding: 20px;
+        margin-top: 10px;
+        gap: 30px;
+    }
+
+    .inp {
+        margin-top: 10px;
+    }
+
+    .bmi-btn {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+    /* -------------------MEET OUR TEEM---------------- */
+    .ot-tx {
+        margin-top: 50px;
+    }
+
+    .name {
+        font-size: 18px;
+    }
+
+    .ot-img {
+        grid-template-columns: repeat(3, 1fr);
+        width: 80%;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    /* -------------------footer------------------------ */
+
+    footer {
+        padding: 50px 10px;
+        margin-top: 70px;
+    }
+
+    .fit {
+        width: 80%;
+    }
+
+    .gtst {
+        display: flex;
+        gap: 100px;
+        flex-direction: row;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    h5 {
+        font-weight: normal;
+    }
+
+    hr {
+        margin-top: 10px;
+    }
+
+    .small {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 15px;
+    }
+
+    /*...................... CHALLENGE BOX .....................*/
+    .challenge {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .ch-t {
+        font-size: 30px;
+    }
+
+    .ch-d {
+
+        font-size: 12px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        color: rgb(138, 137, 137);
+    }
+
+    .ch-i:hover {
+        width: 55%;
+        height: 115px;
+    }
+
+    #im1 {
+        display: none;
+    }
+
+    .ch-i {
+        width: 55%;
+        height: 115px;
+    }
+
+    .ch-item:hover {
+        border-right: 10px solid rgb(255, 66, 66);
+        gap: 10px;
+        width: 85%;
+        text-align: center;
+    }
+
+    .ch-item {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        border: 3px double rgb(92, 92, 92);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .ch-item div h3 {
+        width: 120px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .ch-item div p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .ch-btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(247, 67, 67);
+        width: 80%;
+        border: 1px solid rgb(247, 67, 67);
+        font-weight: bolder;
+    }
+
+    .imgs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 30px;
+    }
 
 }
