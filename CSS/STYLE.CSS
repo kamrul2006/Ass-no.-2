@@ -186,7 +186,11 @@ nav {
     color: rgb(155, 152, 152);
 }
 
-.ch-i {
+.im-d {
+    width: 95%;
+}
+
+.cyh-i {
     border: 2px solid grey;
     border-radius: 50%;
 
@@ -250,6 +254,95 @@ nav {
 .re-img {
     border-radius: 20px;
 }
+
+/* .......................Trainings and Exercises...................... */
+
+.trandex {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.tae {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.tei1 {
+    display: flex;
+    width: 100%;
+    height: 46%;
+}
+
+.tei2 {
+    display: flex;
+    width: 100%;
+    height: 46%;
+}
+
+.tei1 div,
+.tei2 div {
+    padding: 20px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.te1 {
+    background-image: linear-gradient(180deg, rgba(0, 234, 255, 0.442), rgba(0, 213, 255, 0.264), rgba(0, 247, 255, 0.482) 100%), url(../images/exercise1.jpg);
+    height: 100%;
+    width: 25%;
+}
+
+.te2 {
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.248), rgba(255, 0, 0, 0.264), rgba(255, 0, 0, 0.371) 100%), url(../images/exercise2.png);
+    height: 100%;
+    width: 45%;
+}
+
+.te3 {
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.434), rgba(47, 47, 47, 0.359), rgba(0, 0, 0, 0.564) 100%), url(../images/exercise3.png);
+    height: 100%;
+    width: 35%;
+}
+
+.te4 {
+    background-image: linear-gradient(180deg, rgba(47, 47, 47, 0.359), rgba(0, 0, 0, 0.531), rgba(45, 45, 45, 0.359) 100%), url(../images/exercise4.png);
+    height: 100%;
+    width: 40%;
+}
+
+.te5 {
+    background-image: linear-gradient(180deg, rgba(47, 255, 0, 0.248), rgba(85, 255, 0, 0.264), rgba(94, 255, 0, 0.371) 100%), url(../images/exercise5.jpg);
+    height: 100%;
+    width: 20%;
+}
+
+.te6 {
+    background-image: linear-gradient(180deg, rgba(0, 106, 255, 0.254), rgba(0, 94, 255, 0.264), rgba(0, 55, 255, 0.371) 100%), url(../images/exercise6.jpg);
+    height: 100%;
+    width: 40%;
+}
+
+.te-disx {
+    color: white;
+    position: absolute;
+    margin-top: 11%;
+}
+
+.te-disy {
+    color: white;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#te-disp {
+    margin-top: 50px;
+    text-align: center;
+}
+
 
 /*........................ BMI Calculator ............................*/
 .bmi {
@@ -421,6 +514,121 @@ td {
 
 
 
+/*...................... CHALLENGE BOX .....................*/
+.challenge {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 25px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: rgba(92, 92, 92, 0.378) 0px 0px 25px 5px;
+    text-align: center;
+    background-image: url(../CHALLENGE/cl\ bg.jpeg);
+    background-position: center;
+    background-size: contain;
+}
+
+.ch-t {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Imprint MT Shadow';
+    font-weight: normal;
+}
+
+.ch-d {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.ch-i:hover {
+    border: 3px solid rgb(255, 66, 66);
+    width: 25%;
+    height: 250px;
+}
+
+.ch-i {
+    width: 20%;
+    height: 230px;
+    border-radius: 50%;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: rgb(50, 50, 50) 0px 0px 10px 5px;
+    transition: all 500ms ease-in-out;
+}
+
+.ch-item:hover {
+    background-color: rgba(0, 0, 0, 0.697);
+    border: 3px double rgb(255, 255, 255);
+    width: 95%;
+    border-left: 10px solid rgb(255, 66, 66);
+    border-right: transparent;
+    gap: 250px;
+    text-align: justify;
+}
+
+.ch-item {
+
+    width: 90%;
+    height: 270px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    border: 3px double rgb(92, 92, 92);
+    border-right: none;
+    border-radius: 50px 50% 50% 50px;
+    padding-left: 10px;
+    text-align: left;
+    transition: all 1s ease-in-out;
+}
+
+.ch-item div {
+    padding: 20px;
+}
+
+.ch-item div h3 {
+    text-align: center;
+    width: 200px;
+    font-size: 30px;
+    font-family: 'Times New Roman', 'serif';
+    border-left: 5px solid rgb(249, 65, 65);
+    border-right: 5px solid rgb(249, 65, 65);
+    border-radius: 50%;
+    background-color: rgb(72, 72, 72);
+    padding: 7px;
+}
+
+.ch-item div p {
+    margin-top: 20px;
+    color: silver;
+}
+
+.ch-btn:hover {
+    background-color: white;
+    color: rgb(247, 67, 67);
+    width: 200px;
+}
+
+.ch-btn {
+    height: 30px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(247, 67, 67);
+    color: white;
+    margin-top: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 100px;
+}
+
 
 
 
@@ -498,6 +706,9 @@ hr {
     color: rgba(255, 255, 255, 0.5);
     font-size: 20px;
 }
+
+
+
 
 
 
@@ -642,6 +853,91 @@ hr {
         width: 98%;
     }
 
+    /* .......................Trainings and Exercises...................... */
+
+    .trandex {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .tae {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .tei1 {
+        margin-top: 0;
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tei2 {
+        margin-top: -50px;
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+
+    .tei1 div,
+    .tei2 div {
+        padding: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+
+
+    .te1 {
+        height: 55%;
+        width: 50%;
+    }
+
+    .te2 {
+        height: 55%;
+        width: 50%;
+    }
+
+    .te3 {
+        display: none;
+    }
+
+    .te4 {
+        height: 55%;
+        width: 45%;
+    }
+
+    .te5 {
+        height: 55%;
+        width: 55%;
+    }
+
+    .te6 {
+        display: none;
+    }
+
+    .te-disx {
+        color: white;
+        position: absolute;
+        margin-top: 11%;
+    }
+
+    .te-disy {
+        color: white;
+        position: absolute;
+        margin-top: 14%;
+    }
+
+    #te-disp {
+        margin-top: 50px;
+        text-align: center;
+    }
+
     /*-------------- bmi crt box------------------ */
     .bmi-t {
         font-size: 20px;
@@ -721,5 +1017,79 @@ hr {
         color: rgba(255, 255, 255, 0.5);
         font-size: 15px;
     }
+
+    /*...................... CHALLENGE BOX .....................*/
+    .challenge {
+        margin-top: 50px;
+        padding: 20px;
+    }
+
+    .ch-t {
+        font-size: 30px;
+    }
+
+    .ch-d {
+
+        font-size: 12px;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+        text-align: center;
+        color: rgb(138, 137, 137);
+    }
+
+    .ch-i:hover {
+        width: 55%;
+        height: 200px;
+    }
+
+    .ch-i {
+        width: 50%;
+        height: 200px;
+    }
+
+    .ch-item:hover {
+        border-right: 10px solid rgb(255, 66, 66);
+        gap: 10px;
+        width: 85%;
+        text-align: center;
+    }
+
+    .ch-item {
+        width: 80%;
+        height: auto;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 10px;
+        border: 3px double rgb(92, 92, 92);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .ch-item div h3 {
+        width: 120px;
+        font-size: 20px;
+        margin: 0 auto;
+    }
+
+    .ch-item div p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+
+    .ch-btn:hover {
+        background-color: rgb(255, 255, 255);
+        color: rgb(247, 67, 67);
+        width: 200px;
+        border: 1px solid rgb(247, 67, 67);
+        font-weight: bolder;
+    }
+
+    .imgs {
+        margin-top: 30px;
+    }
+
 
 }
