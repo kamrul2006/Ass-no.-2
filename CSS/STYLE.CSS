@@ -352,6 +352,11 @@ nav {
     margin-top: 100px;
 }
 
+#bmi-d {
+    width: 70%;
+    margin: 0 auto;
+}
+
 /*.......................... BMI Chart box....................... */
 .bmi-t {
     font-size: 28px;
